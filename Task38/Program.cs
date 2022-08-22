@@ -55,7 +55,6 @@ static double[] CreateRandomArrayDbl(int size, double min, double max)
 
 	double[] array = new double[size];
 	Random rnd = new Random();
-	max = max + 1; // to include to random range
 	for (int i = 0; i < size; ++i)
 	{
 		array[i] = GetPseudoRandomDbl(rnd, min, max);
